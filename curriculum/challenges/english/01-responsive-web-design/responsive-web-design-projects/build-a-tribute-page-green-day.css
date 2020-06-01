@@ -1,0 +1,51 @@
+#main {
+    font-family: Open Sans, arial;
+    background-color: blue;
+    color: white;
+   }
+  
+  h1,
+  h2, 
+  p,
+  h3 {
+    text-align: center;
+  }
+  
+  #title {
+    font-weight: bold;
+  }
+  
+  #img-div {
+      background-color: white;
+      color: black;
+      border-radius: 20px;
+   }
+  
+  #image {
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+  }
+  
+  #img-caption {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #tribute-info {
+    line-height: 25px;
+  }
+  
+  #tribute-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  @media (max-height:800px) {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
